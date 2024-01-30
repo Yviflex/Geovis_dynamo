@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 20px;
+}
+h1 {
+    margin: 0px;
+    font-weight: normal;
+    margin-left: 15px;
+}
+h2 {
+    margin: 0px;
+    margin-top: 3px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 15px;}
+.tracks{
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    height: calc(100vh - 105px);
+    width: 50px;
+    background-color: #16537e;
+    border-radius: 10px;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+.tracks path:hover{
+    fill: #0AD6C7;
+    cursor: pointer;
+}
+
+.info_track{
+    position: absolute;
+    top: 85px;
+    left: 95px;
+    height: 470px;
+    width: 250px;
+    background-color: #f49b9b;
+    border: 5px solid #16537e;
+    border-radius: 10px;
+}
+#map{
+    position: absolute;
+    top: 85px;
+    left: 375;
+    height: calc(100vh - 115px);
+    width: calc(100vw - 395px);
+    border: 5px solid #16537e;
+    border-radius: 10px;
+}
